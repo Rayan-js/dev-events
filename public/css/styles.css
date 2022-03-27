@@ -1,0 +1,245 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #f2a340 !important;
+    border: solid 2px #c28008 !important;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #c28008 !important;
+}
+/* NAVBAR */
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+#navbar {
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px 0;
+}
+#navbar a {
+    font-size: 14px;
+    color: #757575;
+}
+
+#navbar a:hover {
+    color: #f2a340;
+}
+
+/* Search Container */
+#search-conainer {
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1 {
+    color: #f2a340;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#search-container form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Events Cards  */
+
+#events-container {
+    padding: 50px;
+}
+#events-container h2 {
+    margin-bottom: 10px;
+}
+
+#events-container .subtitle {
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#cards-container {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+#cards-container .card {
+    /* flex: 1 2 2; */
+    max-width: 20% !important;
+    border-radius: 10px;
+    padding: 0;
+    margin: 5px;
+}
+
+#cards-container img {
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-date {
+    font-size: 12px;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.card .card-title {
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card-participantes {
+    font-size: 14px;
+    color: #757575;
+}
+
+.form-group label {
+    margin: 10px 0;
+    font-weight: bold;
+}
+.form-group input {
+    margin: 10px 0;
+}
+
+.btn-criar {
+    margin: 10px 0;
+}
+
+#items-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#items-list li {
+    display: flex;
+    margin-top: 0.75rem;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    background-color: #353e48;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+.msg {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+/* BANNER */
+.banner {
+    width: 100vw;
+    height: 70vh;
+}
+
+/* EVENT PAGE */
+
+#image-container,
+#info-container {
+    margin-top: 30px;
+}
+
+#image-container img {
+    border-radius: 10px;
+}
+
+#info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+    margin-top: 0.75rem;
+}
+
+#info-container h3,
+#description-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-container ion-icon {
+    font-size: 20px;
+    color: #f2a340;
+    margin-right: 5px;
+}
+
+#info-container,
+#event-submit {
+    margin: 20px 0;
+}
+
+/* DASHBOARD */
+
+.dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-events-container th {
+    width: 25%;
+}
+
+.dashboard-events-container form {
+    display: inline-block;
+}
+
+.img-preview {
+    width: 400px;
+    margin-top: 20px;
+}
+
+#description-container {
+    margin-top: 1rem;
+}
+.space {
+    margin: 20px 0;
+}
